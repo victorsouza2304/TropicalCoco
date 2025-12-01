@@ -1,0 +1,68 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: white;
+}
+
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 25px;
+}
+
+.logo-box {
+    display: flex;
+    align-items: center;
+    background: #63e673;
+    padding: 10px 18px;
+    border-radius: 10px;
+}
+
+.logo-box img {
+    width: 45px;
+    height: 45px;
+    margin-right: 10px;
+    border-radius: 100px;
+}
+
+.logo-box span {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.icones a {
+    margin-left: 20px;
+    font-size: 30px;
+    text-decoration: none;
+    color: black;
+}
+
+
+
+main {
+    text-align: center;
+    margin-top: 60px;
+}
+
+main h2 {
+    font-size: 22px;
+    font-weight: 500;
+    margin-bottom: 40px;
+}
+
+textarea {
+    width: 70%;
+    max-width: 500px;
+    height: 60px;
+    border-radius: 12px;
+    resize: none;
+    border: none;
+    padding: 15px;
+    background: #dcdcdc;
+    font-size: 16px;
+    outline: none;
+}
