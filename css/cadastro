@@ -1,0 +1,96 @@
+
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background: #63e673;
+    padding: 10px 20px;
+    border-radius: 12px;
+}
+
+.logo img {
+    width: 55px;
+    border-radius: 100px;
+}
+
+.icones {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.icones img {
+    width: 38px;
+    cursor: pointer;
+    
+
+}
+
+.titulo {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 28px;
+}
+
+.login-container {
+    background: white;
+    width: 350px;
+    padding: 25px;
+    border-radius: 12px;
+    margin: 40px auto;
+    box-shadow: 0 0 15px rgba(0,0,0,0.15);
+}
+
+.login-container label {
+    display: block;
+    margin-top: 12px;
+    margin-bottom: 4px;
+    font-size: 15px;
+}
+
+.login-container input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #aaa;
+    border-radius: 6px;
+    margin-bottom: 10px;
+}
+
+.btn-login {
+    width: 100%;
+    padding: 10px;
+    background: #1ca83b;
+    color: white;
+    font-size: 16px;
+    border: none;
+    margin-top: 10px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.btn-login:hover {
+    background: #13842d;
+}
+
+.link-cadastro {
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    margin-top: 12px;
+    font-size: 14px;
+    color: #0c5a1c;
+}
