@@ -1,0 +1,99 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.tela-login {
+    background: linear-gradient(135deg, #39d466, #1ca83b);
+    min-height: 100vh;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 25px;
+    background: white;
+}
+
+.logo {
+    font-size: 22px;
+    font-weight: bold;
+    color: #1ca83b;
+}
+
+nav a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+}
+
+.icones a {
+    margin-left: 12px;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+.login-container {
+    background: white;
+    width: 320px;
+    padding: 25px;
+    border-radius: 12px;
+    margin: 100px auto 0 auto;
+    box-shadow: 0 0 15px rgba(0,0,0,0.15);
+    text-align: center;
+}
+
+.login-container h2 {
+    margin-bottom: 20px;
+}
+
+.login-container label {
+    display: block;
+    text-align: left;
+    margin: 10px 0 4px;
+}
+
+.login-container input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #aaa;
+    border-radius: 6px;
+    margin-bottom: 10px;
+    font-size: 15px;
+    outline: none;
+}
+
+.login-container input::placeholder {
+    color: #888;
+}
+
+.btn-login {
+    width: 100%;
+    background: #1ca83b;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+.btn-login:hover {
+    background: #159430;
+}
+
+.link-cadastro {
+    display: block;
+    margin-top: 15px;
+    font-size: 14px;
+    color: #0b5c1d;
+    text-decoration: none;
+}
+
+.link-cadastro:hover {
+    text-decoration: underline;
+}
