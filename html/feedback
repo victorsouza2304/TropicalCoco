@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TropicalCoco</title>
+    <link rel="stylesheet" href="tropfeedback.css">
+</head>
+<body>
+
+    <header>
+        <div class="logo-box">
+            <img src="data:image/jpeg;base64,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" alt="logo coco">
+            <span>TropicalCoco</span>
+        </div>
+
+        <div class="icones">
+            <a href="carrinho.html">🛒</a>
+            <a href="login.html">👤</a>
+        </div>
+    </header>
+
+    <main>
+        <h2>Nos dê seu feedback</h2>
+
+        <textarea placeholder="escreva aqui"></textarea>
+    </main>
+
+</body>
+</html>
