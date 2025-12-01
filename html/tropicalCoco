@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TropicalCoco</title>
+
+    <link rel="stylesheet" href="tropicalCoco.css">
+</head>
+
+<body class="tela-login">
+
+    <header>
+        <div class="logo">TropicalCoco</div>
+
+        <nav>
+            <a href="index.html">Início</a>
+            <a href="produtos.html">Produtos</a>
+            <a href="receitas.html">Receitas</a>
+            <a href="sobre.html">Sobre</a>
+        </nav>
+
+        <div class="icones">
+            <a href="carrinho.html">🛒</a>
+            <a href="login.html">👤</a>
+        </div>
+    </header>
+
+    <main class="login-container">
+        <h2>Faça seu login</h2>
+
+        <label for="email">e-mail:</label>
+        <input type="text" id="email" placeholder="digite seu e-mail">
+
+        <label for="senha">senha:</label>
+        <input type="password" id="senha" placeholder="digite sua senha">
+
+        <button class="btn-login">entrar</button>
+
+        <a href="tropcadastro.html" class="link-cadastro">não tem uma conta? crie!</a>
+    </main>
+
+</body>
+</html>
